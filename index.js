@@ -16,9 +16,11 @@ minusButton.addEventListener('click',decrement)
 function increment() {
   counter++ 
   console.log('counter=', counter)
+  counterValue.textContent=counter
 }
 
 function decrement() {
     counter-- 
     console.log('counter=', counter)
+    counterValue.textContent=counter
   }
